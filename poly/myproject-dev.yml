@@ -1,12 +1,14 @@
 server:
-  port: 12100
+  port: 12110
 
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+  endpoint:
     health:
+      enabled: true
       show-details: always
     beans:
       enabled: true
