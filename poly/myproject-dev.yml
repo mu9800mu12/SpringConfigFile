@@ -14,6 +14,8 @@ management:
       enabled: true
     info:
       enabled: true
+    refresh :
+      enabled: true
   server:
     address: localhost
     port: 12101
