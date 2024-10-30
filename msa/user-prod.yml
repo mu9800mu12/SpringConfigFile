@@ -35,8 +35,16 @@ spring:
     username: poly
     url: jdbc:mariadb://svc.sel4.cloudtype.app:32604/myDB?characterEncoding=UTF-8&serverTimezone=UTC # 배포용1
 
+
+
   application:
     name: USER-SERVICE
+
+  boot:
+    admin:
+      client: # Spring Boot Actuator Admin UI Server
+        url: http://localhost:15000
+
 
 jwt:
   token:
